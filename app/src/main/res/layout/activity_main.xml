@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nội dung (mỗi dòng 1 tin):" android:textStyle="bold"/>
+    <EditText android:id="@+id/etMsgs" android:layout_width="match_parent" android:layout_height="200dp" android:gravity="top"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ADB host (ip:port):"/>
+    <EditText android:id="@+id/etHost" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delay mỗi ký tự (ms):"/>
+    <EditText android:id="@+id/etDelay" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
+    <Button android:id="@+id/btnSave" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Lưu cấu hình"/>
+    <Button android:id="@+id/btnStart" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BẬT menu nổi"/>
+    <Button android:id="@+id/btnStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tắt menu nổi"/>
+</LinearLayout>
